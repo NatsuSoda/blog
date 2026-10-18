@@ -62,10 +62,10 @@ export default defineConfig({
     //     'https://github.com/ATQQ/sugar-blog/tree/master/packages/blogpress/:path',
     //   text: '去 GitHub 上编辑内容'
     // },
-//    nav: [
-//      { text: '首页', link: '/' },
-//      { text: '关于作者', link: 'https://sugarat.top/aboutme.html' }
-//    ],
+    nav: [
+      { text: '首页', link: '/' },
+      { text: '关于我', link: '/aboutme.html' }
+    ],
     socialLinks: [
       {
         icon: 'github',
