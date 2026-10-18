@@ -98,7 +98,7 @@ tags:
 
 | 平台 | 地址 |
 |------|------|
-| **GitHub** | [github.com/NatsuSoda](https://github.com/NatsuSoda) |
+| **GitHub** | [NatsuSoda](https://github.com/NatsuSoda) |
 | **博客** | 你已经在这里了 🙂 |
 
 有问题、建议，或者只是想聊聊，都可以在 GitHub 上开 Issue 或 Discussion，我会尽量回复。
