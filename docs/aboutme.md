@@ -1,6 +1,6 @@
 ---
 title: 关于我
-description: 十裡冬的个人介绍——一个喜欢折腾服务器、写代码、记录思考的人。
+description: 十裡冬的个人介绍——折腾服务器、学计算机基础、记录思考的人。
 date: 2026-10-18
 tags: 
   - 建站
@@ -19,21 +19,21 @@ tags:
   </div>
 </div>
 
-## 一、自我介绍
+<div class="about-divider"></div>
 
-大家好，我是**十裡冬**，一个热衷于折腾技术、喜欢用文字记录思考的普通人。
+## 自我介绍
 
-目前的主要方向是计算机基础知识的系统学习——数据结构、操作系统、计算机网络，同时对服务器运维和网络工程有浓厚兴趣。平时会在这里记录学习心得、踩坑经历和一些对技术的理解，偶尔也写写生活。
+大家好，我是**十裡冬**，一个喜欢折腾技术、用文字记录思考的普通人。
 
-> 写博客对我来说不是为了展示，而是为了逼自己把模糊的理解变成清晰的文字。能帮到其他人是意外的惊喜。
+目前主要在系统学习计算机基础——数据结构、操作系统、计算机网络，同时对服务器运维和网络工程有浓厚兴趣。这里记录的是学习心得、踩坑经历和对技术的一些理解，偶尔也写写生活。
 
-## 二、关于本站
+> 写博客不是为了展示，而是逼自己把模糊的理解变成清晰的文字。能帮到别人，是意外的惊喜。
 
-这个博客基于 [VitePress](https://vitepress.dev/) 搭建，使用了 [@sugarat/theme](https://theme.sugarat.top/) 主题，托管在CloudFlare上。
+## 关于本站
+
+这个博客基于 [VitePress](https://vitepress.dev/) 搭建，使用了 [@sugarat/theme](https://theme.sugarat.top/) 主题，部署在 Cloudflare Pages 上。
 
 ### 内容方向
-
-本站的文章主要分布在以下几个方向：
 
 | 分类 | 主要内容 |
 |------|----------|
@@ -43,22 +43,20 @@ tags:
 | **硬件 & 配置** | CPU 测评、内存行情、装机心得 |
 | **日常随笔** | 出行记录、生活思考、碎碎念 |
 
-### 建站初衷
+开这个博客，是因为刚学编程时找不到讲清楚的中文资料，后来意识到真正弄懂一件事的标志是能把它讲给别人听——所以一方面留存自己的学习档案，另一方面也希望对同样在入门阶段的人有一点帮助。
 
-刚开始学编程的时候，遇到问题总是找不到讲清楚的中文资料。后来慢慢意识到，真正弄懂一件事的标志是能把它讲给别人听。所以开了这个博客——一方面是给自己的学习留存档，另一方面希望能对和我一样在入门阶段挣扎的人有一点帮助。
-
-## 三、技术栈
+## 技术栈
 
 ### 语言
 
-- **C / C++**：主力学习语言，用于数据结构与算法的实现，对指针、内存管理有一定理解
+- **C / C++**：主力学习语言，用于数据结构与算法实现，对指针和内存管理有一定理解
 - **Bash / Shell**：日常运维脚本，配置自动化部署流程
 - **Markdown**：写文档和博客的主要格式
 
 ### 系统与运维
 
-- **Linux**：日常使用 Debian / Ubuntu，熟悉基本的包管理、服务管理、防火墙配置
-- **VPS 管理**：有一定的服务器选购、线路测试、性能调优经验，折腾过 BGP、单线 CN2、HK 线路等
+- **Linux**：日常使用 Debian / Ubuntu，熟悉包管理、服务管理、防火墙配置
+- **VPS 管理**：有服务器选购、线路测试、性能调优经验，折腾过 BGP、单线 CN2、HK 线路等
 - **网络协议**：了解 TCP/IP 基础、路由、DNS，正在深入学习计算机网络
 
 ### 工具链
@@ -67,32 +65,30 @@ tags:
 - **VitePress + @sugarat/theme**：本站所用，能做基本的主题定制
 - **VSCode**：主力编辑器
 
-## 四、学习经历
-
-目前正在系统学习计算机专业基础课，把课本知识和实际代码结合起来是我一直在尝试的方式。
+## 学习经历
 
 ### 数据结构
 
-从顺序表、链表开始，一路啃到树、图、排序算法。让我印象最深的是**递归思想的转变**——刚开始看递归代码总觉得「天书」，直到某一天突然明白「只要想清楚当前层做什么，剩下的交给自己」，就豁然开朗了。
+从顺序表、链表开始，一路啃到树、图、排序算法。让我印象最深的是**递归思想的转变**——刚开始看递归总觉得天书，直到明白「只要想清楚当前层做什么，剩下交给自己」，就豁然开朗了。
 
-整理了一份[数据结构初学者指南](/study/data-structures-beginner-guide.html)，把踩过的坑和理解过程都记录下来了，供参考。
+整理了一份[数据结构初学者指南](/study/data-structures-beginner-guide.html)，把踩过的坑和理解过程都记录下来了。
 
 ### 服务器运维
 
-最早是为了搭梯子买的第一台 VPS，折腾过程中学到了大量 Linux 实操知识。后来开始关注线路质量、BGP 网络、延迟与带宽的关系，逐渐从「能用就行」变成「为什么这样设计」。
+最早为了搭梯子买了第一台 VPS，折腾过程中学到了大量 Linux 实操知识。后来开始关注线路质量、BGP 网络、延迟与带宽的关系，逐渐从「能用就行」变成「为什么这样设计」。
 
 ### 计算机网络
 
-正处于从应用层向下理解协议栈的阶段。知道 HTTP 怎么用，开始搞清楚 TCP 的握手、拥塞控制、可靠性保证背后的逻辑。
+正处于从应用层向下理解协议栈的阶段。知道 HTTP 怎么用，开始搞清楚 TCP 握手、拥塞控制、可靠性保证背后的逻辑。
 
-## 五、近期在做什么
+## 近期在做什么
 
 - 继续更新数据结构系列，计划覆盖二叉树、图、哈希表
 - 整理 VPS 选购和线路测评的经验帖
 - 探索 C++ 标准库容器的底层实现原理
 - 优化博客的搜索和阅读体验
 
-## 六、联系方式
+## 联系方式
 
 目前主要活跃在 GitHub，欢迎通过以下方式找到我：
 
@@ -124,6 +120,12 @@ tags:
   border: 3px solid var(--vp-c-brand-1, #3b82f6);
   object-fit: cover;
   box-shadow: 0 2px 16px rgba(0, 0, 0, 0.12);
+  transition: transform 0.25s ease, box-shadow 0.25s ease;
+}
+
+.about-avatar:hover {
+  transform: scale(1.06);
+  box-shadow: 0 4px 24px rgba(59, 130, 246, 0.25);
 }
 
 .about-name {
@@ -160,13 +162,33 @@ tags:
   font-weight: 500;
   color: var(--vp-c-text-1);
   text-decoration: none;
-  transition: border-color 0.2s, color 0.2s, background 0.2s;
+  transition: border-color 0.2s ease, color 0.2s ease, background 0.2s ease, transform 0.15s ease;
 }
 
 .social-btn:hover {
   border-color: var(--vp-c-brand-1, #3b82f6);
   color: var(--vp-c-brand-1, #3b82f6);
   background: var(--vp-c-brand-soft);
+  transform: translateY(-1px);
+}
+
+.social-btn:active {
+  transform: translateY(0);
+}
+
+.about-divider {
+  height: 2px;
+  background: linear-gradient(
+    to right,
+    transparent,
+    var(--vp-c-brand-1, #3b82f6) 30%,
+    var(--vp-c-brand-1, #3b82f6) 70%,
+    transparent
+  );
+  opacity: 0.25;
+  margin: 0.5rem auto 2rem;
+  max-width: 240px;
+  border-radius: 2px;
 }
 
 .about-footer-note {
