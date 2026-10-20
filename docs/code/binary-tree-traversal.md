@@ -15,6 +15,10 @@ tags:
 
 这篇文章结合 `tree1.cpp` 和 `tree2.cpp` 两份练习代码，从建树开始，把三种深度优先遍历放到同一棵树上比较。两份源码中已经实现了前序遍历和中序遍历，后序遍历则可以沿用完全相同的递归框架补出来。
 
+![tree1.cpp 源码截图](https://images.winteroften.com/tree1.png)
+
+![tree2.cpp 源码截图](https://images.winteroften.com/tree2.png)
+
 ## 一、先看结点定义：每个结点有两个孩子
 
 两份代码使用了相同的二叉链表结构：
