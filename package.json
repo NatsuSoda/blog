@@ -11,7 +11,7 @@
   },
   "dependencies": {
     "@giscus/vue": "^3.1.1",
-    "@sugarat/theme": "^0.5.31",
+    "@sugarat/theme": "^0.5.32",
     "vitepress-plugin-giscus": "^0.1.2"
   },
   "directories": {
